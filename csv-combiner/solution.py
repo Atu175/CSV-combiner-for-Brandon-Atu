@@ -3,11 +3,6 @@ import sys
 p = sys.argv[0]
 x = sys.argv[1]
 y = sys.argv[2]
-print(p)
-print(x)
-print(y)
-#x = "fixtures/accessories.csv"
-#y = "fixtures/clothing.csv"
 pathx = x.split("/")
 pathy = y.split("/")
 df1 = pandas.read_csv(x)
